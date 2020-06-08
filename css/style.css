@@ -1,0 +1,32 @@
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#map {
+  height: 100%;
+}
+.custom-header {
+  text-align:center;
+  background: #FFF;
+  color: #222;
+}
+.title {
+  font-size: 32px;
+  margin-top: 30px;
+}
+.info {
+  margin-top: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.dot {
+  height: 7px;
+  width: 7px;
+  background-color: #fce21b;
+  border-radius: 50%;
+  display: inline-block;
+}
