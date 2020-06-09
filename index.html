@@ -2,13 +2,15 @@
 <html>
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script type="text/javascript" src="jsondata.json"></script>
+  <script src="scripts/script.js"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4DAC8h27Zdq5705ttPIwECxc0grcH_iw&callback=initMap"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168884857-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'UA-168884857-1');
   </script>
   <meta charset="utf-8" />
@@ -29,7 +31,3 @@
 </body>
 
 </html>
-
-<script src="scripts/script.js"></script>
-<script async defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4DAC8h27Zdq5705ttPIwECxc0grcH_iw&callback=initMap"></script>
